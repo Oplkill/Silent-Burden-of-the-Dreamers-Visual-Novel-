@@ -1,0 +1,582 @@
+[gd_scene format=3 uid="uid://bbasyso8116hx"]
+
+[ext_resource type="Texture2D" uid="uid://c7bmr6r2koruw" path="res://textures/locked_scene.png" id="1_u1g2d"]
+
+[node name="Node2D" type="Node2D" unique_id=738075067]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1516320451]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Camera2D" unique_id=1535709792]
+
+[node name="Control" type="Control" parent="Camera2D/CanvasLayer" unique_id=1307966725]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Scene 0 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control" unique_id=1237050678]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 72.0
+offset_right = 156.0
+offset_bottom = 172.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 1 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control" unique_id=1173487556]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 220.0
+offset_right = 162.0
+offset_bottom = 320.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 2 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control" unique_id=68362050]
+layout_mode = 0
+offset_left = 99.0
+offset_top = 371.0
+offset_right = 199.0
+offset_bottom = 471.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 3 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control" unique_id=818855335]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 371.0
+offset_right = 330.0
+offset_bottom = 471.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Geno root" type="Control" parent="Camera2D/CanvasLayer/Control" unique_id=713659474]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 55.0
+offset_top = 80.0
+offset_right = 55.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Scene 5" type="Control" parent="Camera2D/CanvasLayer/Control/Geno root" unique_id=1125307107]
+anchors_preset = 0
+offset_left = 253.0
+offset_top = -6.0
+offset_right = 293.0
+offset_bottom = 34.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 5" unique_id=1421458967]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 0.27058825, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 5" unique_id=664194789]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 7" type="Control" parent="Camera2D/CanvasLayer/Control/Geno root" unique_id=413702211]
+anchors_preset = 0
+offset_left = 518.0
+offset_top = -4.0
+offset_right = 558.0
+offset_bottom = 36.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 7" unique_id=1806289897]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 0.27058825, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 7" unique_id=707452253]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 8" type="Control" parent="Camera2D/CanvasLayer/Control/Geno root" unique_id=988069223]
+anchors_preset = 0
+offset_left = 653.0
+offset_top = -3.0
+offset_right = 693.0
+offset_bottom = 37.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 8" unique_id=784903192]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 0.27058825, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 8" unique_id=1787371960]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 11" type="Control" parent="Camera2D/CanvasLayer/Control/Geno root" unique_id=28601984]
+anchors_preset = 0
+offset_left = 791.0
+offset_top = -4.0
+offset_right = 831.0
+offset_bottom = 36.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 11" unique_id=1469114170]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 0.27058825, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 11" unique_id=1134922805]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 12" type="Control" parent="Camera2D/CanvasLayer/Control/Geno root" unique_id=1355203162]
+anchors_preset = 0
+offset_left = 922.0
+offset_top = -4.0
+offset_right = 962.0
+offset_bottom = 36.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 12" unique_id=1888575892]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 0.27058825, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Geno root/Scene 12" unique_id=1111608815]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Pos root" type="Control" parent="Camera2D/CanvasLayer/Control" unique_id=691668539]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 56.0
+offset_top = 82.0
+offset_right = 56.0
+offset_bottom = 82.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Scene 6" type="Control" parent="Camera2D/CanvasLayer/Control/Pos root" unique_id=1863686240]
+anchors_preset = 0
+offset_left = 386.0
+offset_top = -129.0
+offset_right = 426.0
+offset_bottom = -89.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 6" unique_id=72575275]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.3313673, 0.63082063, 0.24731404, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 6" unique_id=209409900]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 7" type="Control" parent="Camera2D/CanvasLayer/Control/Pos root" unique_id=1164498529]
+anchors_preset = 0
+offset_left = 520.0
+offset_top = -129.0
+offset_right = 560.0
+offset_bottom = -89.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 7" unique_id=1098251015]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.32941177, 0.6313726, 0.24705882, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 7" unique_id=671763890]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 8" type="Control" parent="Camera2D/CanvasLayer/Control/Pos root" unique_id=369343514]
+anchors_preset = 0
+offset_left = 650.0
+offset_top = -131.0
+offset_right = 690.0
+offset_bottom = -91.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 8" unique_id=2105738788]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.32941177, 0.6313726, 0.24705882, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 8" unique_id=1483473538]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 11" type="Control" parent="Camera2D/CanvasLayer/Control/Pos root" unique_id=11979304]
+anchors_preset = 0
+offset_left = 789.0
+offset_top = -130.0
+offset_right = 829.0
+offset_bottom = -90.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 11" unique_id=798687768]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.32941177, 0.6313726, 0.24705882, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 11" unique_id=1962758711]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 12" type="Control" parent="Camera2D/CanvasLayer/Control/Pos root" unique_id=1062344243]
+anchors_preset = 0
+offset_left = 923.0
+offset_top = -131.0
+offset_right = 963.0
+offset_bottom = -91.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 12" unique_id=470663501]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.32941177, 0.6313726, 0.24705882, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Pos root/Scene 12" unique_id=1880409561]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Neu root" type="Control" parent="Camera2D/CanvasLayer/Control" unique_id=1414345193]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 52.0
+offset_top = 100.0
+offset_right = 52.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Scene 6" type="Control" parent="Camera2D/CanvasLayer/Control/Neu root" unique_id=582707846]
+anchors_preset = 0
+offset_left = 390.0
+offset_top = -270.0
+offset_right = 430.0
+offset_bottom = -230.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 6" unique_id=1156212205]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.12675959, 0.56113505, 0.9211569, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 6" unique_id=1803539709]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 7" type="Control" parent="Camera2D/CanvasLayer/Control/Neu root" unique_id=1704568359]
+anchors_preset = 0
+offset_left = 525.0
+offset_top = -270.0
+offset_right = 565.0
+offset_bottom = -230.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 7" unique_id=620137737]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.12675959, 0.56113505, 0.9211569, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 7" unique_id=1878281734]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 8" type="Control" parent="Camera2D/CanvasLayer/Control/Neu root" unique_id=1122038467]
+anchors_preset = 0
+offset_left = 654.0
+offset_top = -271.0
+offset_right = 694.0
+offset_bottom = -231.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 8" unique_id=10768603]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.12675959, 0.56113505, 0.9211569, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 8" unique_id=383464865]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 11" type="Control" parent="Camera2D/CanvasLayer/Control/Neu root" unique_id=214824529]
+anchors_preset = 0
+offset_left = 795.0
+offset_top = -273.0
+offset_right = 835.0
+offset_bottom = -233.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 11" unique_id=215064218]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.12675959, 0.56113505, 0.9211569, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 11" unique_id=597906114]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 12" type="Control" parent="Camera2D/CanvasLayer/Control/Neu root" unique_id=1089012761]
+anchors_preset = 0
+offset_left = 920.0
+offset_top = -271.0
+offset_right = 960.0
+offset_bottom = -231.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 12" unique_id=1512419752]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(0.12675959, 0.56113505, 0.9211569, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Neu root/Scene 12" unique_id=1664323015]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="CoN root" type="Control" parent="Camera2D/CanvasLayer/Control" unique_id=278874396]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 55.0
+offset_top = 113.0
+offset_right = 55.0
+offset_bottom = 113.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Scene 11" type="Control" parent="Camera2D/CanvasLayer/Control/CoN root" unique_id=1847891099]
+anchors_preset = 0
+offset_left = 794.0
+offset_top = -412.0
+offset_right = 834.0
+offset_bottom = -372.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/CoN root/Scene 11" unique_id=1187394806]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 1, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/CoN root/Scene 11" unique_id=1719969260]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Scene 12" type="Control" parent="Camera2D/CanvasLayer/Control/CoN root" unique_id=1420129507]
+anchors_preset = 0
+offset_left = 919.0
+offset_top = -412.0
+offset_right = 959.0
+offset_bottom = -372.0
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/CanvasLayer/Control/CoN root/Scene 12" unique_id=1045950149]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 457.0
+offset_right = 161.0
+offset_bottom = 564.0
+color = Color(1, 0.09019608, 1, 1)
+
+[node name="Button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/CoN root/Scene 12" unique_id=1088919418]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 460.0
+offset_right = 158.0
+offset_bottom = 560.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Offscenes" type="Control" parent="Camera2D/CanvasLayer/Control" unique_id=1758385289]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -8.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bonus 1 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=982593929]
+layout_mode = 0
+offset_left = 319.0
+offset_top = 28.0
+offset_right = 419.0
+offset_bottom = 128.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 2 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=1254061693]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 29.0
+offset_right = 539.0
+offset_bottom = 129.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 3 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=715479406]
+layout_mode = 0
+offset_left = 555.0
+offset_top = 30.0
+offset_right = 655.0
+offset_bottom = 130.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 4 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=1381525901]
+layout_mode = 0
+offset_left = 671.0
+offset_top = 30.0
+offset_right = 771.0
+offset_bottom = 130.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 5 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=1280856082]
+layout_mode = 0
+offset_left = 792.0
+offset_top = 30.0
+offset_right = 892.0
+offset_bottom = 130.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 6 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=1359858284]
+layout_mode = 0
+offset_left = 913.0
+offset_top = 28.0
+offset_right = 1013.0
+offset_bottom = 128.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
+
+[node name="Bonus 7 button" type="TextureButton" parent="Camera2D/CanvasLayer/Control/Offscenes" unique_id=1871589781]
+layout_mode = 0
+offset_left = 1030.0
+offset_top = 27.0
+offset_right = 1130.0
+offset_bottom = 127.0
+texture_normal = ExtResource("1_u1g2d")
+stretch_mode = 3
